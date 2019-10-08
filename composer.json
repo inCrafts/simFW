@@ -1,0 +1,9 @@
+{
+  "autoload": {
+    "psr-4": {
+      "simFW\\": "vendor/simFW/core",
+      "app\\": "app"
+    }
+  },
+  "require": {}
+}
