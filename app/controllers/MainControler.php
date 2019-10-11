@@ -2,10 +2,12 @@
 
 namespace app\controllers;
 
+class MainControler extends AppController {
 
-class MainControler {
+//    public $layout = 'test';
 
     public function indexAction () {
-        echo __METHOD__;
+//        $this->layout = 'test';
+        //echo __METHOD__;
     }
 }

@@ -27,10 +27,11 @@ class Router {
         if (self::matchRoute($url)) {
           $controller = 'app\controllers\\' . self::$route['prefix'] . self::$route['controller'] . 'Controler';
           if (class_exists($controller)) {
-                $controllerObject = new $controller(self::$route);
+                $controllerObj = new $controller(self::$route);
                 $action = self::lowerCamelCase(self::$route['action']) . 'Action';
-                if (method_exists($controllerObject, $action)) {
-                    $controllerObject->$action();
+                if (method_exists($controllerObj, $action)) {
+                    $controllerObj->$action();
+                    $controllerObj->getView();
                 } else {
                     throw  new \Exception("Метод $controller::$action не найден", 404);
                 }
