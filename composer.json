@@ -1,7 +1,7 @@
 {
   "autoload": {
     "psr-4": {
-      "simFW\\": "vendor/simFW/core",
+      "simFW\\": "vendor/simShop/core",
       "app\\": "app"
     }
   },

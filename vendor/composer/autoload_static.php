@@ -24,7 +24,7 @@ class ComposerStaticInit87e6a0780514ea30dd01b94a41574ba2
     public static $prefixDirsPsr4 = array (
         'simFW\\' => 
         array (
-            0 => __DIR__ . '/..' . '/simFW/core',
+            0 => __DIR__ . '/..' . '/simShop/core',
         ),
         'app\\' => 
         array (

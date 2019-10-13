@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'simFW\\' => array($vendorDir . '/simFW/core'),
+    'simFW\\' => array($vendorDir . '/simShop/core'),
     'app\\' => array($baseDir . '/app'),
     'RedBeanPHP\\' => array($vendorDir . '/gabordemooij/redbean/RedBeanPHP'),
 );

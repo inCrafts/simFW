@@ -8,6 +8,4 @@ use simFW\base\Model;
 
 class AppModel extends Model {
 
-
-
 }
